@@ -1,0 +1,60 @@
+.title {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1400px;
+}
+.title img {
+	width: 100%;
+}
+
+.floating-text {
+	font-family: arial;
+	font-weight: bold;
+	color: #555;
+	
+	display: block;
+	
+	position: absolute;
+	width: 100%;
+	text-align: left;
+}
+
+#greeting {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
+
+#profile {
+	margin-top: 40px;
+	background-image: linear-gradient(rgba(000,000,000,.5), rgba(000,000,000,.5)), url(../images/Kurt.jpg);
+}
+#profile:hover {
+	background-image: linear-gradient(rgba(000,000,000,.9), rgba(000,000,000,.9)), url(../images/Kurt.jpg);
+	color: var(--main-color);
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+#background {
+	margin-top: 40px;
+	background-image: linear-gradient(rgba(000,000,000,.5), rgba(000,000,000,.5)), url(https://www.eduopinions.com/wp-content/uploads/2018/08/FullSailUniversity-logo.jpg);
+}
+#background:hover{
+	background-image: linear-gradient(rgba(000,000,000,.9), rgba(000,000,000,.9)), url(https://www.eduopinions.com/wp-content/uploads/2018/08/FullSailUniversity-logo.jpg);
+	color: var(--main-color);
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+#projects {
+	margin-top: 40px;
+	background-image: linear-gradient(rgba(000,000,000,.5), rgba(000,000,000,.5)), url(https://ktaratundevblog.files.wordpress.com/2017/11/screenshot3.png?w=660);
+	
+}
+#projects:hover{
+	background-image: linear-gradient(rgba(000,000,000,.9), rgba(000,000,000,.9)), url(https://ktaratundevblog.files.wordpress.com/2017/11/screenshot3.png?w=660);
+	color: var(--main-color);
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}

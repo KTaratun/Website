@@ -1,0 +1,52 @@
+.profile-card {
+	background: #888;
+	margin-left: 10px;
+
+}
+.profile-pic {
+    width: 500px;
+    height: 500px;
+    float: right;
+	padding-bottom: 40px;
+}
+
+.button-container {
+	width: 40%;
+	display: flex;
+	justify-content: left;
+}
+
+.button {
+	font-size: 20px;
+	height: 100px;
+	width: 100px;
+}
+
+#resume {
+	background-image: linear-gradient(rgba(000,000,000,.5), rgba(000,000,000,.5)), url(https://carlitoz.com/images/paper-symbol-office-document-text-lines-1.png);
+}
+#resume:hover {
+	background-image: linear-gradient(rgba(000,000,000,.9), rgba(000,000,000,.9)), url(https://carlitoz.com/images/paper-symbol-office-document-text-lines-1.png);
+	color: var(--main-color);
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+#linkedIn {
+	background-image: linear-gradient(rgba(000,000,000,.5), rgba(000,000,000,.5)), url(http://icons.iconarchive.com/icons/danleech/simple/1024/linkedin-icon.png);
+}
+#linkedIn:hover{
+	background-image: linear-gradient(rgba(000,000,000,.9), rgba(000,000,000,.9)), url(http://icons.iconarchive.com/icons/danleech/simple/1024/linkedin-icon.png);
+	color: var(--main-color);
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+#github {
+	background-image: linear-gradient(rgba(000,000,000,.5), rgba(000,000,000,.5)), url(https://s3-ap-south-1.amazonaws.com/av-blog-media/wp-content/uploads/2018/02/github1.png);
+	
+}
+#github:hover{
+	background-image: linear-gradient(rgba(000,000,000,.9), rgba(000,000,000,.9)), url(https://s3-ap-south-1.amazonaws.com/av-blog-media/wp-content/uploads/2018/02/github1.png);
+	color: var(--main-color);
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
