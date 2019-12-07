@@ -1,19 +1,41 @@
-.profile-card {
+#profile-card {
 	background: #888;
-	margin-left: 10px;
-
+	width: 100%;
+	margin-bottom: 50px;
+	display: flex;
 }
-.profile-pic {
-    width: 500px;
-    height: 500px;
-    float: right;
-	padding-bottom: 40px;
+
+#profile-text {
+	height: 100%;
+	margin-left: 20px;
+}
+
+#profile-pic {
+    width: 35%;
+    height: auto;
+	padding-bottom: 50px;
+}
+
+h2, h3 {
+	margin-top: 0px;
+}
+
+h3 {
+	line-height: 10px;
+}
+
+#about {
+	margin-right: auto; 
+	margin-left: auto;
+	margin-bottom: 40px;
+	text-align: center;
+	width: 600px;
 }
 
 .button-container {
-	width: 40%;
+	width: 100%;
 	display: flex;
-	justify-content: left;
+	justify-content: center;
 }
 
 .button {
@@ -23,7 +45,7 @@
 }
 
 #resume {
-	background-image: linear-gradient(rgba(000,000,000,.5), rgba(000,000,000,.5)), url(https://carlitoz.com/images/paper-symbol-office-document-text-lines-1.png);
+	background-image: url(https://carlitoz.com/images/paper-symbol-office-document-text-lines-1.png);
 }
 #resume:hover {
 	background-image: linear-gradient(rgba(000,000,000,.9), rgba(000,000,000,.9)), url(https://carlitoz.com/images/paper-symbol-office-document-text-lines-1.png);
@@ -32,16 +54,16 @@
     -webkit-text-stroke-color: black;
 }
 #linkedIn {
-	background-image: linear-gradient(rgba(000,000,000,.5), rgba(000,000,000,.5)), url(http://icons.iconarchive.com/icons/danleech/simple/1024/linkedin-icon.png);
+	background-image: url(https://icons.iconarchive.com/icons/danleech/simple/1024/linkedin-icon.png);
 }
 #linkedIn:hover{
-	background-image: linear-gradient(rgba(000,000,000,.9), rgba(000,000,000,.9)), url(http://icons.iconarchive.com/icons/danleech/simple/1024/linkedin-icon.png);
+	background-image: linear-gradient(rgba(000,000,000,.9), rgba(000,000,000,.9)), url(https://icons.iconarchive.com/icons/danleech/simple/1024/linkedin-icon.png);
 	color: var(--main-color);
 	-webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
 }
 #github {
-	background-image: linear-gradient(rgba(000,000,000,.5), rgba(000,000,000,.5)), url(https://s3-ap-south-1.amazonaws.com/av-blog-media/wp-content/uploads/2018/02/github1.png);
+	background-image: url(https://s3-ap-south-1.amazonaws.com/av-blog-media/wp-content/uploads/2018/02/github1.png);
 	
 }
 #github:hover{

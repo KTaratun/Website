@@ -1,9 +1,61 @@
+body {
+    /* background-image: url(http://s1.picswalls.com/wallpapers/2014/07/28/greece-wallpapers_120859514_118.jpg);
+    background-size: cover;
+    background-attachment: fixed; */
+}
+
+h1 {
+    text-align: center;
+}
+
+#background
+
 .affiliate-block {
     background: #888;
+    width: 700px;
+    margin: auto;
+    border-radius: 8px;
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 20px;
 }
-.affiliate-block img {
-    width: 100px;
-    height: 100px;
+
+#fullsail {
     float: right;
-	border: 2px solid #555555;
+    background-image: url(https://www.eduopinions.com/wp-content/uploads/2018/08/FullSailUniversity-logo.jpg);
+}
+
+#coder-school {
+    float: right;
+    background-image: url(https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/13344594_287793581565668_1090449985819321699_n.png?_nc_cat=100&_nc_ohc=uyICXKWdAKUAQn87ff5JzR0TpYC1WgEoqDyXLg02S3OvWhyoPbQCgwUPA&_nc_ht=scontent-lga3-1.xx&oh=1dd343bff763c9e5e3a7d2d16a8940ae&oe=5E85C6C2);
+}
+
+#exclusive-cleaning {
+    float: right;
+    background-image: url(../images/Exclusive_Cleaning.png);
+}
+
+#i3 {
+    float: right;
+    background-image: url(https://pbs.twimg.com/profile_images/758660781500207104/Ir3RSXRo_400x400.jpg);
+}
+
+#wema {
+    float: right;
+    background-image: url(../images/Wema.png);
+}
+
+#bjs {
+    float: right;
+    background-image: url(https://media.consumeraffairs.com/files/cache/logos/bjs-club_logo_790_widget_logo.png);
+}
+
+#gamestop {
+    float: right;
+    background-image: url(https://assets.macerichepicenter.com/FileManager/_shared/Retailers/Logos/GameStop_Logo.jpg);
+}
+
+#triple-c {
+    float: right;
+    background-image: url(https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/10294257_469111043219496_4559580366877624066_n.jpg?_nc_cat=102&_nc_ohc=Ve4id-1VzFIAQlII-9AuXpdITbwnvtAhx2i4sn657097l1qQtnShrYS5Q&_nc_ht=scontent-lga3-1.xx&oh=da374c13303074892785fd3019ebc488&oe=5E716708);
 }

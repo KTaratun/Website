@@ -29,7 +29,7 @@
 
 #profile {
 	margin-top: 40px;
-	background-image: linear-gradient(rgba(000,000,000,.5), rgba(000,000,000,.5)), url(../images/Kurt.jpg);
+	background-image: url(../images/Kurt.jpg);
 }
 #profile:hover {
 	background-image: linear-gradient(rgba(000,000,000,.9), rgba(000,000,000,.9)), url(../images/Kurt.jpg);
@@ -39,7 +39,7 @@
 }
 #background {
 	margin-top: 40px;
-	background-image: linear-gradient(rgba(000,000,000,.5), rgba(000,000,000,.5)), url(https://www.eduopinions.com/wp-content/uploads/2018/08/FullSailUniversity-logo.jpg);
+	background-image: url(https://www.eduopinions.com/wp-content/uploads/2018/08/FullSailUniversity-logo.jpg);
 }
 #background:hover{
 	background-image: linear-gradient(rgba(000,000,000,.9), rgba(000,000,000,.9)), url(https://www.eduopinions.com/wp-content/uploads/2018/08/FullSailUniversity-logo.jpg);
@@ -49,7 +49,7 @@
 }
 #projects {
 	margin-top: 40px;
-	background-image: linear-gradient(rgba(000,000,000,.5), rgba(000,000,000,.5)), url(https://ktaratundevblog.files.wordpress.com/2017/11/screenshot3.png?w=660);
+	background-image: url(https://ktaratundevblog.files.wordpress.com/2017/11/screenshot3.png?w=660);
 	
 }
 #projects:hover{
