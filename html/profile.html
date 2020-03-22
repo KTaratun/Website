@@ -5,6 +5,9 @@
 		<link href="../styles/main.css" rel="stylesheet" type="text/css" />
 		<link href="../styles/nav.css" rel="stylesheet" type="text/css" />
 		<link href="../styles/profile.css" rel="stylesheet" type="text/css" />
+
+		<script src="../js/jquery-3.4.1.js"></script>
+		<script src="../js/jquery.fittext.js"></script>
 	</head>
 	
 	<body>
@@ -18,24 +21,28 @@
 		<div id="profile-card">
 			<img id="profile-pic" src="../images/Kurt.jpg" />
 			
-			<div id="profile-text">
-				<h2> Kurt Taratun </h2>
-				<h3> Software Developer </h3>
+			<div class="floating-text">
+				<h1> Kurt Taratun </h1>
+				<h2> Software Developer </h2>
 					
-				Currently I'm tutoring at The Coder School in Short Hills, NJ.
+				<br>I like to code, game and<br> inspire others
 			</div>
 		</div>
+
+		<script type="text/javascript">
+			$(".floating-text").fitText(3.0)
+		</script>
 
 		<div id="about" >
 			<h1> What I'm about </h1>
 
 			<h3>Stay active</h3>
-			Make mistakes and move on<br><br>
+			Make mistakes and learn<br><br>
 
 			<h3>Follow through</h3>
 			If someone asks you to go a mile, go two<br><br>
 
-			<h3>Perspective is everything</h3>
+			<h3>Outlook is everything</h3>
 			If you aren't having fun, you are doing something wrong<br><br>
 		</div>
 

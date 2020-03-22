@@ -1,0 +1,26 @@
+#projects {
+	margin-bottom: 250px;
+}
+
+.project-block {
+    margin: 0 auto;
+    width: 80%;
+    background: var(--main-color);
+    display: flex;
+    position: relative;
+    border-radius: 8px;
+    padding: 30px;
+    margin-top: 50px;
+}
+.text-block {
+    text-align: left;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.player {
+    width: 560px; 
+    height: 315px;
+    margin-left: auto;
+}

@@ -1,26 +1,37 @@
 #profile-card {
-	background: #888;
+	background: var(--main-color);
 	width: 100%;
-	margin-bottom: 50px;
+	margin-top: 250px;
 	display: flex;
-}
-
-#profile-text {
-	height: 100%;
-	margin-left: 20px;
+	position: relative;
 }
 
 #profile-pic {
     width: 35%;
     height: auto;
-	padding-bottom: 50px;
 }
 
-h2, h3 {
-	margin-top: 0px;
+#summary {
+	font-weight: bold;
+	font-size: 30px;
+	
+	width: 100%;
+	margin-top: 150px;
+	margin-bottom: 150px;
+	
+	text-align: center;
+	position: relative;
+	color: #222;
 }
+
+.tight {
+	margin-left: 0px;
+	line-height: 0px;
+}
+
 
 h3 {
+	margin-top: 0px;
 	line-height: 10px;
 }
 
@@ -28,6 +39,7 @@ h3 {
 	margin-right: auto; 
 	margin-left: auto;
 	margin-bottom: 40px;
+	margin-top: 250px;
 	text-align: center;
 	width: 600px;
 }

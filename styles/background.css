@@ -8,10 +8,14 @@ h1 {
     text-align: center;
 }
 
-#background
+#background {
+	margin-top: 250px;
+	margin-bottom: 250px;
+	background: var(--main-color);
+}
 
 .affiliate-block {
-    background: #888;
+    background: var(--main-color-light);
     width: 700px;
     margin: auto;
     border-radius: 8px;
@@ -55,7 +59,12 @@ h1 {
     background-image: url(https://assets.macerichepicenter.com/FileManager/_shared/Retailers/Logos/GameStop_Logo.jpg);
 }
 
+#landmark {
+    float: right;
+    background-image: url(https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/47689000_272677510259017_6799196987804614656_n.jpg?_nc_cat=101&_nc_ohc=eHWMlw6iCHMAX9dxkl6&_nc_ht=scontent-lga3-1.xx&oh=11a4f9b0e8d691ff24af2d5da92585c3&oe=5E97D76F);
+}
+
 #triple-c {
     float: right;
-    background-image: url(https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/10294257_469111043219496_4559580366877624066_n.jpg?_nc_cat=102&_nc_ohc=Ve4id-1VzFIAQlII-9AuXpdITbwnvtAhx2i4sn657097l1qQtnShrYS5Q&_nc_ht=scontent-lga3-1.xx&oh=da374c13303074892785fd3019ebc488&oe=5E716708);
+    background-image: url(https://www.new-jersey-leisure-guide.com/images/triple-c-ranch.jpg);
 }

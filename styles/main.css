@@ -1,5 +1,7 @@
 :root {
-  --main-color: #099;
+  --main-color: #478ECB;
+  --main-color-dark: #2D5B7F;
+  --main-color-light: #62ADDF;
 }
 
 html {
@@ -9,7 +11,7 @@ html {
 }
 
 body {
-	background:#999;
+	#background:#999;
 	font-family: arial;
 	margin: 0;
 	min-height: 100%;
@@ -19,15 +21,10 @@ body {
 
 h1, h2, p, li {
 	color: #333;
-	font-family: arial;
-}
-
-h2 {
-	margin-left: 20px;
+	font-family: sans-serif;
 }
 
 p {
-	background: #888;
 	padding: 3px;
 }
 
@@ -49,8 +46,17 @@ p {
 	margin-left:10px;
 }
 
+#scroll-down {
+	position: fixed;
+	z-index: 1;
+	
+	bottom: 15px;
+	right: 15px;
+}
+
 .button-container {
 	width: 100%;
 	display: flex;
 	justify-content: center;
+	margin-bottom: 25px;
 }
